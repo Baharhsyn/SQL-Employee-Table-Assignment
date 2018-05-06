@@ -2,14 +2,7 @@ CREATE TABLE Employees (
     EmployeeID int,
     FirstName varchar(15),
 	LastName varchar(15),
-	Email varchar(10), 
-	Telephone varchar(15),
-	HireDate int ,
-	JobId varchar(10),
-	Salary int,
-	Commission_Pct int,
-	Manager_ID int,
-	Dept_Id int
+	age int ,
 );
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Email, Telephone, HireDate, JobId, Salary, Commission_Pct, Manager_ID, Dept_Id)
 VALUES ('100', 'King', 'Steven', 'Stavanger', 'SKING', '515.123.4567', '1987-06-17', 'AD_PRES ', '24000.00', '0.00', '0', '90' );
